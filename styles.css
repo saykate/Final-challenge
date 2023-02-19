@@ -49,8 +49,9 @@ h1, h2, h3 {
     max-width: 1200px;
 }
 .row {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
+    /* border: 1px solid red; */
 }
 .nav {
     background-color: var(--color-black);
@@ -265,7 +266,7 @@ h1, h2, h3 {
         padding: 4rem 0;
     }
     .header__text-but {
-        padding: 15rem 0 0 4rem;
+        padding: 17rem 0 0 3rem;
     }
     .light__col2, .light__col3 {
         padding-left: 2rem;
@@ -273,9 +274,20 @@ h1, h2, h3 {
     .white__row {
         flex-direction: row;
     }
+    .white__col1 {
+        max-width: 55%;
+    }
     .white__col2 {
         flex-direction: column;
         margin-left: 5rem;
+        font-size: .75rem;
+    }
+    .box__title
+    {
+        padding-top: 1rem;
+    }
+    .box__text {
+        padding: 1rem 1.5rem;
     }
     .box + .box {
         margin: 1rem 0 0;
